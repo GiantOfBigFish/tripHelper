@@ -7,19 +7,19 @@
 
 import Foundation
 
-struct PlaceElements: Codable {
-    var places: [ PlaceElement ]
+struct PlaceElements: Codable, Hashable {
+    var places: [ PlaceElement ] 
 }
 struct PlaceElement: Codable, Hashable {
     var id: String
     var title: String
     var description: String
-    var tags: [String]
-    var cost: [MoneyItem]
-    var accesibility: [String]
-    var dateAdd: Date
-    var photos: [String]
-    var location: String
+    //var tags: [String]
+    //var cost: [MoneyItem]
+    //var accesibility: [String]
+    //var dateAdd: Date
+    //var photos: [String]
+    //Svar location: String
     
 }
 struct MoneyItem: Codable, Hashable {
