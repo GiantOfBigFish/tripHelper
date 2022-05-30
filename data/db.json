@@ -1,0 +1,25 @@
+{
+    "places": [{
+        "id": "xx",
+        "title": "solei pacifico",
+        "description": "Hotel a la orilla de la playa con piscinas, comida, etc.",
+        "tags": [
+            "playa",
+            "hotel",
+            "pacifico"
+        ],
+        "money": [{
+            "daypass": "600 aprox"
+        }],
+        "accesibility": [
+            "chairwheel",
+            "novision"
+        ],
+        "dateAdd": "today",
+        "photos": [
+            "",
+            ""
+        ],
+        "location": "Km. 5.5 Carr. a Chulamar, Puerto San José"
+    }]
+}
