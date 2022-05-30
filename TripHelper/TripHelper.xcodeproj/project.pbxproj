@@ -14,6 +14,7 @@
 		14D9D477284448F100885BFA /* TripHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D9D476284448F100885BFA /* TripHelperTests.swift */; };
 		14D9D481284448F200885BFA /* TripHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D9D480284448F200885BFA /* TripHelperUITests.swift */; };
 		14D9D483284448F200885BFA /* TripHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D9D482284448F200885BFA /* TripHelperUITestsLaunchTests.swift */; };
+		14D9D495284453E600885BFA /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D9D494284453E600885BFA /* Places.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		14D9D47C284448F200885BFA /* TripHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D9D480284448F200885BFA /* TripHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHelperUITests.swift; sourceTree = "<group>"; };
 		14D9D482284448F200885BFA /* TripHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14D9D494284453E600885BFA /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,9 @@
 		14D9D464284448EF00885BFA /* TripHelper */ = {
 			isa = PBXGroup;
 			children = (
+				14D9D4922844535400885BFA /* views */,
+				14D9D4912844534A00885BFA /* model */,
+				14D9D4902844534000885BFA /* viewModel */,
 				14D9D465284448EF00885BFA /* TripHelperApp.swift */,
 				14D9D467284448EF00885BFA /* ContentView.swift */,
 				14D9D469284448F100885BFA /* Assets.xcassets */,
@@ -125,6 +130,28 @@
 				14D9D482284448F200885BFA /* TripHelperUITestsLaunchTests.swift */,
 			);
 			path = TripHelperUITests;
+			sourceTree = "<group>";
+		};
+		14D9D4902844534000885BFA /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		14D9D4912844534A00885BFA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				14D9D494284453E600885BFA /* Places.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		14D9D4922844535400885BFA /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			files = (
 				14D9D468284448EF00885BFA /* ContentView.swift in Sources */,
 				14D9D466284448EF00885BFA /* TripHelperApp.swift in Sources */,
+				14D9D495284453E600885BFA /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
